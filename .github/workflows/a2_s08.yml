@@ -6,6 +6,6 @@ jobs:
     name: Impresion 1
     runs-on: ubuntu-latest
     steps:
-      - name: Master
+      - name: Remoto
         run: |
-          echo "ok master"
+          echo "ok remoto"
