@@ -1,4 +1,4 @@
-name: a2_s08_master
+name: a2_s08_remoto
 on: 
   workflow_dispatch:
 jobs:
