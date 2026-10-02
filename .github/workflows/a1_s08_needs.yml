@@ -1,0 +1,12 @@
+name: a1_s08_needs
+on: 
+  workflow_dispatch:
+jobs:
+  imp1:
+    name: Impresion 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Unico
+        run: |
+          sleep 10
+          echo "ok"
