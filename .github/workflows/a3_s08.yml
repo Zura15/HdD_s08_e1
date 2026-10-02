@@ -2,10 +2,12 @@ name: a2_s08_master
 on: 
   workflow_dispatch:
 jobs:
-  imp1:
-    name: Impresion 1
+  activar-otro:
     runs-on: ubuntu-latest
     steps:
-      - name: Master
-        run: |
-          echo "ok master"
+      - name: llmada a a2_s08
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          script: |
+          workflow: a2_s08.yml
+          token: ${{secrets.GITHUB_TOKEN}}
