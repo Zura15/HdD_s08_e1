@@ -10,3 +10,12 @@ jobs:
         run: |
           sleep 10
           echo "ok"
+  imp2:
+    name: Impresion 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Unico
+        run: |
+          sleep 10
+          echo "ok"
+
