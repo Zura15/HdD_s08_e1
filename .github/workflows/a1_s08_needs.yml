@@ -13,9 +13,10 @@ jobs:
   imp2:
     name: Impresion 1
     runs-on: ubuntu-latest
+    needs: imp1
     steps:
       - name: Unico
         run: |
           sleep 10
-          echo "ok"
+          echo "ok 2"
 
