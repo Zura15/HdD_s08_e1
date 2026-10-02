@@ -5,9 +5,8 @@ jobs:
   activar-otro:
     runs-on: ubuntu-latest
     steps:
-      - name: llmada a a2_s08
+      - name: llamada a a2_s08
         uses: benc-uk/workflow-dispatch@v1
         with:
-          script: |
           workflow: a2_s08.yml
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{ secrets.GITHUB_TOKEN }}
